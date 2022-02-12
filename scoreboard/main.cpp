@@ -5,7 +5,7 @@ using namespace my_using;
 
 int main()
 {
-	SetConsoleTitle("扫雷游戏计分板");
+	SetConsoleTitle(L"扫雷游戏计分板");
 	system("mode con lines=10 cols=50");
 	system("color F0");
 	ifstream fin("gameinfo.json");
